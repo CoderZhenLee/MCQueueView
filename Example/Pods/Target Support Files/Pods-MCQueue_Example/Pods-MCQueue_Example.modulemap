@@ -1,0 +1,6 @@
+framework module Pods_MCQueue_Example {
+  umbrella header "Pods-MCQueue_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

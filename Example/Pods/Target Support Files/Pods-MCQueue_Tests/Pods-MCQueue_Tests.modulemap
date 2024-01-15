@@ -1,0 +1,6 @@
+framework module Pods_MCQueue_Tests {
+  umbrella header "Pods-MCQueue_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

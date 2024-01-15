@@ -1,0 +1,20 @@
+PODS:
+  - MCQueue (0.0.1):
+    - MCQueue/Base (= 0.0.1)
+    - MCQueue/XenLive (= 0.0.1)
+  - MCQueue/Base (0.0.1)
+  - MCQueue/XenLive (0.0.1)
+
+DEPENDENCIES:
+  - MCQueue (from `../`)
+
+EXTERNAL SOURCES:
+  MCQueue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MCQueue: e51e3b8cf27df6a19b5a96e3ed9f8b0c9739ef52
+
+PODFILE CHECKSUM: 81291e9e1eb6bd590139404d347a36e3ccb4f780
+
+COCOAPODS: 1.12.1

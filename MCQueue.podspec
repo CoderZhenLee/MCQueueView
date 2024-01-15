@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCQueue'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of MCQueue.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yixiaochuan/MCQueue'
+  s.homepage         = 'https://github.com/CoderZhenLee/MCQueueView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yixiaochuan' => 'yixiaochuan@micous.com' }
-  s.source           = { :git => 'https://github.com/yixiaochuan/MCQueue.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CoderZhenLee/MCQueueView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'MCQueue/Classes/**/*'
+  
+  s.subspec 'Base' do |ss|
+      ss.source_files = 'MCQueue/Base/*'
+  end
+  
+  s.subspec 'XenLive' do |ss|
+      ss.source_files = 'MCQueue/XenLive/**/*'
+  end
   
   # s.resource_bundles = {
   #   'MCQueue' => ['MCQueue/Assets/*.png']
